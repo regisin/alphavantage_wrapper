@@ -24,8 +24,7 @@ Tested using `Python 3`.
 # Usage
 
 ```python
-from alphavantage_wrapper import AlphaVantage
-import pandas as pd
+from alphavantage_wrapper.AlphaVantage import AlphaVantage
 
 api_key = 'APIKeyGoesHere'
 
