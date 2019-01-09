@@ -1,3 +1,7 @@
 # Distribution / packaging
 build/
 dist/
+*.egg
+*.eggs
+*.egg-info/
+MANIFEST
