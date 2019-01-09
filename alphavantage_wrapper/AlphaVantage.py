@@ -143,7 +143,7 @@ class AlphaVantage():
         Some columns do not exist in alpha: Adj. Open, Adj. High, Adj. Low, Adj. Volume.
         TO-DO: compute missing columns (need to use dividend and split ratio).
         """
-        df = self.get_time_series_daily_adjusted(ticker, size=size)
+        df = self.get_time_series_daily_adjusted(ticker, outputsize=size)
         # To keep consistent with quandl format, add/change column names and index
         df.index.rename('Date', inplace=True)
         df.rename(columns={
