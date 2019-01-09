@@ -41,7 +41,10 @@ print(stock)
 
 # Changelog
 
-* V0.0.1
+* v0.0.2
+  * Bug fixes
+
+* v0.0.1
   * First commit
   * Include LICENSE file
   * Include README
@@ -49,7 +52,7 @@ print(stock)
 
 # TO-DO
 
-* For v0.0.2
+* For v0.1.0
 
 - [ ] Improve source-code comments (function descriptions, add example)
 - [ ] Time series example script
