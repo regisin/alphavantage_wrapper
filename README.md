@@ -40,7 +40,12 @@ print(stock)
 
 # Changelog
 
+* v0.0.4
+  * Added tests for time series API
+
 * v0.0.3
+  * Bug fixes
+
 * v0.0.2
   * Bug fixes
 
@@ -60,7 +65,7 @@ print(stock)
 - [ ] Implement Cryptocurrencies functions
 - [ ] Implement Technical Indicators functions
 - [ ] Implement Sector Performances functions
-- [ ] Add unit tests
+- [x] Add unit tests
 - [ ] Add CSV support, maybe?
 
 * For v0.0.1

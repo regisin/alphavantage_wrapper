@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="alphavantage-wrapper",
-    version="0.0.3",
+    version="0.0.4",
     author="Paulo Alexandre Regis",
     author_email="regisin@gmail.com",
     description="A simple wrapper for the Alpha Vantage API.",
@@ -18,4 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    test_suite='nose.collector',
+    tests_require=['nose'],
 )
