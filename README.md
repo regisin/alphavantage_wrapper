@@ -4,6 +4,11 @@ This is a simple wrapper for the [Alpha Vantage API](https://www.alphavantage.co
 
 All results are converted to a `pandas`'s `DataFrame` to make data manipulation/computation/etc. faster.
 
+## Disclaimer
+
+1. I am not part of Alpha Vantage or have any relationship with the company.
+1. Forgive me if I do not employ the best practices (code, comments, documentation), I have no prior experience in publishing a pip module or software development in a professional level.
+
 # Install
 
 You can install this package globally with:
